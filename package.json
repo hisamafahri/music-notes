@@ -1,0 +1,24 @@
+{
+  "name": "music-notes",
+  "version": "1.0.0",
+  "description": "Guess music notes location on your piano",
+  "main": "index.js",
+  "repository": "https://github.com/hisamafahri/music-notes",
+  "author": "Hisam Fahri",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "next",
+    "build": "next build"
+  },
+  "dependencies": {
+    "next": "^13.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.26",
+    "typescript": "4.9.4"
+  }
+}
