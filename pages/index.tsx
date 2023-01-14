@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { useEffect, useState } from "react";
 
 const Home = () => {
@@ -38,14 +39,21 @@ const Home = () => {
     };
   }, []);
   return (
-    <h2
-      style={{
-        textAlign: "center",
-        fontSize: "96px",
-      }}
-    >
-      {currentNote}
-    </h2>
+    <>
+      <Head>
+        <title>Guess Music Notes</title>
+      </Head>
+      <main>
+        <h2
+          style={{
+            textAlign: "center",
+            fontSize: "96px",
+          }}
+        >
+          {currentNote}
+        </h2>
+      </main>
+    </>
   );
 };
 
